@@ -13,7 +13,7 @@ const TodoForm = ({addTodo}) => {
   };
   return (
     <div>
-      <h2 className="text-3xl">
+      <h2 className="text-3xl text-[#272727]">
         <strong>Criar Tarefa</strong>
       </h2>
       <form

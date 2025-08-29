@@ -3,7 +3,7 @@ import React from 'react'
 const search = ({search, setSearch}) => {
   return (
     <div >
-      <h2>Pesquisar Tarefa:</h2>
+     
       <input 
         type="text" 
         value={search}

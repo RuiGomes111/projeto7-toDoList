@@ -6,19 +6,18 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "tsc && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "vite build && gh-pages -d dist"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^7.0.0",
     "@fortawesome/free-solid-svg-icons": "^7.0.0",
     "@fortawesome/react-fontawesome": "^0.2.5",
     "react": "^19.1.1",
-    "react-dom": "^19.1.1",
-    "gh-pages": "…"
+    "react-dom": "^19.1.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.33.0",
